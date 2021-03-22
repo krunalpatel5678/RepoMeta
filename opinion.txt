@@ -1,0 +1,9 @@
+I have used git and svn in this lab 6. I prefer github over SVN. it is easier to use and install. I created repo for task 1 using a command to add files. Edited the file and commit and push it so it tracked.here is command i used 
+
+git init
+git add HelloWord.java
+git commit -m "Finish up"
+git push -u repo1 master
+
+Here is all commod i used for my task 1
+Lab 6 was hardest lab i have done in this class. I have spent so much  time to finish this lab. 
