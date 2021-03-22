@@ -332,4 +332,90 @@ remote:      https://github.com/krunalpatel5678/Repo1/pull/new/master
 remote: 
 To https://github.com/krunalpatel5678/Repo1
  * [new branch]      master -> master
-[kpatel@sol25 ~]$ 
+[kpatel@sol25 ~]$ cd HelloWord.java
+-bash: cd: HelloWord.java: Not a directory
+[kpatel@sol25 ~]$ nano HelloWord.java
+  GNU nano 2.3.1                 File: HelloWord.java                                        
+
+impoert java.time.formate.DateTimeFormatter;
+import.java.time.LocalDateTime;
+public class HelloWord{
+        public static void main(String [] args){
+                System.out.println("Hello, World");
+
+                DateTimeFormatter dtf=
+                DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+                        LocalDateTime now=
+                        LocalDateTime.now();
+                        System.out.println(dtf.format(now));
+                                }
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     [ Wrote 13 lines ]
+
+[kpatel@sol25 ~]$ git commit -m "finish up"
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#       modified:   .bash_history
+#       modified:   .cache/abrt/lastnotification
+#       modified:   HelloWord.java
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#       .gitconfig
+#       REAME.md
+no changes added to commit (use "git add" and/or "git commit -a")
+[kpatel@sol25 ~]$ git add HelloWord.java
+[kpatel@sol25 ~]$ git commit -m "Finish up"
+[master 1464501] Finish up
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+[kpatel@sol25 ~]$ get remote add Repo1 https://github.com/krunalpatel5678/Repo1
+bash: get: command not found...
+Similar commands are::
+'git'
+'GET'
+[kpatel@sol25 ~]$ git remote add Repo1 https://github.com/krunalpatel5678/Repo1
+fatal: remote Repo1 already exists.
+[kpatel@sol25 ~]$ git push -u repo1 master
+fatal: 'repo1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[kpatel@sol25 ~]$ git push -u Repo1 master
+Username for 'https://github.com': krunalpatel5678
+Password for 'https://krunalpatel5678@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 467 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/krunalpatel5678/Repo1
+   0dcfdef..1464501  master -> master
+Branch master set up to track remote branch master from Repo1.
+
