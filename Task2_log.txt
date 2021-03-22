@@ -1,0 +1,461 @@
+SSH Secure Shell 3.2.9 (Build 283)
+Copyright (c) 2000-2003 SSH Communications Security Corp - http://www.ssh.com/
+
+This copy of SSH Secure Shell is a non-commercial version.
+This version does not include PKI and PKCS #11 functionality.
+
+
+Access to Brooklyn College computers is restricted to authorized users
+        and approved educational and research purposes, only.
+ ATTENTION. YOU CAN LOG INTO THIS LINUX WORKSTATION AND OTHER LINUX WORKSTATIONS
+ WITH THESE IP ADDRESSES: 146.245.252.25, 146.245.252.26, 146.245.252.31
+For questions about the Linux system email me at
+rpatitucci@brooklyn.cuny.edu
+
+Last login: Sun Mar 21 23:17:19 2021 from pool-108-29-106-111.nycmny.fios.verizon.net
+[kpatel@sol25 ~]$ mkdir hello_world
+[kpatel@sol25 ~]$ cd hello_world
+[kpatel@sol25 hello_world]$ vi hello.java
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"hello.java" [New File]                              0,0-1         All
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+                                                              0,0-1         All
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+E35: No previous regular expression                  0,0-1         All
+print("heelo)
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+-- INSERT --                                                                                                                                                                 2,1           All
+print("heelo)
+:wq
+yq
+:wq
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+-- INSERT --                                          5,1           All
+print("heelo)
+:wq
+yq
+:wq
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+-- INSERT --                                                                                                                                                                 5,1           All
+ 1(println("helloWorld");
+   
+~
+~
+~ 
+~      
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"hello.java" [New] 2L, 29C written                    
+[kpatel@sol25 hello_world]$ sudo mkdir -p /svn/repos
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for kpatel: 
+kpatel is not in the sudoers file.  This incident will be reported.
+[kpatel@sol25 hello_world]$ mkdir -p /svn/repos
+mkdir: cannot create directory â/svnâ: Permission denied
+[kpatel@sol25 hello_world]$ cd 
+[kpatel@sol25 ~]$ ls
+cs3115          hello_world  lab4       lab4.save.1  lab4.save.3      REAME.md
+HelloWord.java  krunalpatel  lab4.save  lab4.save.2  phonebook0.java  Sum.java
+[kpatel@sol25 ~]$ mkdir -p /svn/repos
+mkdir: cannot create directory â/svnâ: Permission denied
+[kpatel@sol25 ~]$ create /svn/repos/hello
+bash: create: command not found...
+[kpatel@sol25 ~]$ sudo svnadmin create /sn/repos/hello
+[sudo] password for kpatel: 
+kpatel is not in the sudoers file.  This incident will be reported.
+[kpatel@sol25 ~]$ cd Repo2
+-bash: cd: Repo2: No such file or directory
+[kpatel@sol25 ~]$ cd Repo2
+-bash: cd: Repo2: No such file or directory
+[kpatel@sol25 ~]$ cd C:\Users\kruna\OneDrive\Documents\Repo2
+-bash: cd: C:UserskrunaOneDriveDocumentsRepo2: No such file or directory
+[kpatel@sol25 ~]$ Access to Brooklyn College computers is restricted to authorized users
+        and approved educational and research purposes, only.
+ ATTENTION. YOU CAN LOG INTO THIS LINUX WORKSTATION AND OTHER LINUX WORKSTATIONS
+ WITH THESE IP ADDRESSES: 146.245.252.25, 146.245.252.26, 146.245.252.31
+For questions about the Linux system email me at
+rpatitucci@brooklyn.cuny.edu
+
+Last login: Mon Mar 22 10:19:51 2021 from pool-108-29-106-111.nycmny.fios.verizon.net
+[kpatel@sol25 ~]$ svn 
+Type 'svn help' for usage.
+[kpatel@sol25 ~]$ svn help
+usage: svn <subcommand> [options] [args]
+Subversion command-line client, version 1.7.14.
+Type 'svn help <subcommand>' for help on a specific subcommand.
+Type 'svn --version' to see the program version and RA modules
+  or 'svn --version --quiet' to see just the version number.
+
+Most subcommands take file and/or directory arguments, recursing
+on the directories.  If no arguments are supplied to such a
+command, it recurses on the current directory (inclusive) by default.
+
+Available subcommands:
+   add
+   blame (praise, annotate, ann)
+   cat
+   changelist (cl)
+   checkout (co)
+   cleanup
+   commit (ci)
+   copy (cp)
+   delete (del, remove, rm)
+   diff (di)
+   export
+   help (?, h)
+   import
+   info
+   list (ls)
+   lock
+   log
+   merge
+   mergeinfo
+   mkdir
+   move (mv, rename, ren)
+   patch
+   propdel (pdel, pd)
+   propedit (pedit, pe)
+   propget (pget, pg)
+   proplist (plist, pl)
+   propset (pset, ps)
+   relocate
+   resolve
+   resolved
+   revert
+   status (stat, st)
+   switch (sw)
+   unlock
+   update (up)
+   upgrade
+
+Subversion is a tool for version control.
+For additional information, see http://subversion.apache.org/
+[kpatel@sol25 ~]$ svn add Repo2
+svn: E155007: '/users1/st/kpatel' is not a working copy
+[kpatel@sol25 ~]$ svnadmin cretae C:\Users\kruna\OneDrive\Documents\Repo2
+Unknown command: 'cretae'
+Type 'svnadmin help' for usage.
+[kpatel@sol25 ~]$ svn admin create C:\Users\kruna\OneDrive\Documents\Repo2
+Unknown command: 'admin'
+Type 'svn help' for usage.
+[kpatel@sol25 ~]$ svnadmin create C:\Users\kruna\OneDrive\Documents\Repo2
+[kpatel@sol25 ~]$ svn import HelloWord.java
+svn: E205000: Try 'svn help' for more info
+svn: E205000: Invalid URL 'HelloWord.java'
+[kpatel@sol25 ~]$ svn list
+svn: E155007: '/users1/st/kpatel' is not a working copy
+[kpatel@sol25 ~]$ cd desktop
+-bash: cd: desktop: No such file or directory
+[kpatel@sol25 ~]$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+[kpatel@sol25 ~]$ cd Repo2
+-bash: cd: Repo2: No such file or directory
+[kpatel@sol25 ~]$ cd C:\Users\kruna\OneDrive\Documents\Repo2
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ ls
+conf  db  format  hooks  locks  README.txt
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ mkdir task2
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ cd Task2
+-bash: cd: Task2: No such file or directory
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ cd Repo2
+-bash: cd: Repo2: No such file or directory
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ cd ..
+[kpatel@sol25 ~]$ cd C:\Users\kruna\OneDrive\Documents\Repo2
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ cd Repo2
+-bash: cd: Repo2: No such file or directory
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ ls Repo2
+ls: cannot access Repo2: No such file or directory
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ ls documents
+ls: cannot access documents: No such file or directory
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ ls Documents
+ls: cannot access Documents: No such file or directory
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ ls
+conf  db  format  hooks  locks  README.txt  task2
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ svn co https://github.com/krunalpatel5678/RepoMeta
+A    RepoMeta/branches
+A    RepoMeta/trunk
+A    RepoMeta/trunk/log.txt
+Checked out revision 3.
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ cd RepoMeta.git
+-bash: cd: RepoMeta.git: No such file or directory
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ svn commit -m 'adding HelloWord.java'
+svn: E155007: '/users1/st/kpatel/C:UserskrunaOneDriveDocumentsRepo2' is not a working copy
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ nano task2
+  GNU nano 2.3.1                    New Buffer                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 [ "task2" is a directory ]
+
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ C:\Users\kruna\OneDrive\Documents\Repo2/RepoMeta.git
+-bash: C:UserskrunaOneDriveDocumentsRepo2/RepoMeta.git: No such file or directory
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ C:\Users\kruna\OneDrive\Documents\Repo2\Re
+poMeta.git> svn commit -m 'adding helloword.java'
+bash: C:UserskrunaOneDriveDocumentsRepo2RepoMeta.git: command not found...
+[kpatel@sol25 C:UserskrunaOneDriveDocumentsRepo2]$ 
